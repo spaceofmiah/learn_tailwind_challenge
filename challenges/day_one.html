@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../assets/css/output.css" />
+    <title>Sign In - Tailwind css</title>
+  </head>
+  <body>
+    <div class="w-full h-full">
+      <div
+        class="w-2/4 flex justify-center mt-24 mx-auto border border-black-100 shadow-lg "
+      >
+        <div class="my-4 w-3/3 lg:w-1/2 py-4">
+          <h3 class="font-bold text-purple-600 text-center uppercase">
+            Sign In
+          </h3>
+
+          <form action="">
+            <div class="text-center">
+              <input
+                class="border border-gray-400 rounded px-3 w-full lg:w-3/6 py-1 mt-10"
+                type="text"
+                name="username"
+                id="id_username"
+                placeholder="admin"
+              />
+            </div>
+
+            <div class="text-center">
+              <input
+                class="border border-gray-400 rounded px-3 w-full lg:w-3/6 py-1 mt-10"
+                type="password"
+                name="password"
+                id="id_password"
+                placeholder="*****"
+              />
+            </div>
+
+            <div class="text-center">
+              <button
+                class="uppercase rounded text-sm font-semibold bg-purple-600 text-white p-1 w-full lg:w-3/6 text-center mt-10"
+              >
+                sign in
+              </button>
+            </div>
+          </form>
+
+          <h4 class="mt-24 text-sm font-bold text-center text-purple-600 ">
+            Hello Tailwind
+          </h4>
+        </div>
+
+        <div class="hidden lg:block w-2/4 h-60 bg-purple-500"></div>
+      </div>
+    </div>
+  </body>
+</html>
