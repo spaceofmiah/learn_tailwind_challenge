@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Checkout | Learn tailwind</title>
+    <link rel="stylesheet" href="../assets/css/output.css" />
+  </head>
+  <body>
+    <section class="w-full h-full h-screen  p-4 sm:py-24 md:py-32 bg-gray-200">
+      <div
+        class="w-3/2 sm:w-3/4 sm:mx-auto flex-wrap sm:flex-row flex justify-center"
+      >
+        <div class="bg-white w-full lg:w-1/3 border border-gray-300 rounded">
+          <h3 class="p-2 font-semibold text-2xl text-gray-600">
+            Store
+          </h3>
+          <hr class="my-1 border border-gray-200" />
+          <div class="p-2">
+            <label for="id_credit_card_number" class="text-gray-600 text-md"
+              >Credit card number</label
+            >
+            <br />
+            <input
+              class="w-full rounded p-2 my-2 border border-gray-300"
+              type="text"
+              name="credit_card_number"
+              id="id_credit_card_number"
+            />
+
+            <div class="flex sm:justify-between flex-wrap flex-col">
+              <div>
+                <label class="text-gray-600 text-md" for="id_card_expiry_date"
+                  >Card expiry date</label
+                >
+                <br />
+                <input
+                  class="w-full rounded p-2 my-2 border border-gray-300"
+                  type="month"
+                  name="card_expiry_date"
+                  id="id_card_expiry_date"
+                  value="2010-01"
+                />
+              </div>
+
+              <div class="ml-1 sm:ml-0">
+                <label class="text-gray-600 text-md" for="id_card_expiry_date"
+                  >Card cvv</label
+                >
+                <br />
+                <input
+                  class="w-full rounded p-2 my-2 border border-gray-300"
+                  type="text"
+                  name="card_expiry_date"
+                  id="id_card_expiry_date"
+                  placeholder="000"
+                />
+              </div>
+            </div>
+            <p class="text-sm text-center lg:text-left text-gray-500 pt-1">
+              <span>note: </span>Cvv is a 3 digit number at the back of card
+            </p>
+
+            <div class="text-center mt-4">
+              <button
+                class="w-24 font-bold text-center bg-gray-500 text-black p-1 mb-2 rounded hover:bg-gray-600"
+              >
+                Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white w-3/2 lg:w-1/3 h-64 mt-2 lg:mt-0 sm:ml-2  self-center border border-gray-300 rounded">
+            <div class="flex justify-between p-2">
+                <h3 class="text-lg text-gray-600 font-semibold">Order summary</h3>
+
+                <p class="text-center text-gray-600">
+                    <span class="font-semibold">Total:</span> $680.50
+                </p>
+            </div>
+          <hr class="my-2 border border-gray-100" />
+
+          <div class="p-2">
+            <div class="w-1/3 mx-auto mb-2">
+              <img
+                src="../assets/images/shoe.jpeg"
+                alt="Best selling sneakers"
+                class="rounded-full w-24 border border-gray-300"
+              />
+            </div>
+
+            <div class="flex justify-between">
+                <div>
+                    <p class="text-sm text-gray-600">
+                        Time and Tru
+                        <br>
+                        Women's Time And Tru Perferated Twin Gore Slip On
+                    </p>
+                </div>
+
+                <div class="w-32 p-1 border border-gray-300 rounded text-gray-600 font-semibold text-sm text-center">
+                    <p class="">Quantity</p>
+                    <p>1</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
