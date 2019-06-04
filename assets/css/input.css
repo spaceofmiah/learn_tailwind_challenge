@@ -2,4 +2,13 @@
 
 @tailwind components;
 
+.input-full {
+  @apply w-full;
+  @apply rounded;
+  @apply p-2;
+  @apply my-2;
+  @apply border;
+  @apply border-gray-300;
+}
+
 @tailwind utilities;

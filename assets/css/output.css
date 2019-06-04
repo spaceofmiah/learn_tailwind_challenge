@@ -627,6 +627,16 @@ video {
   }
 }
 
+.input-full {
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-width: 1px;
+  border-color: #e2e8f0;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
