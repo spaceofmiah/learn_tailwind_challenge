@@ -11,4 +11,32 @@
   @apply border-gray-300;
 }
 
+.calc-btn {
+  @apply text-sm;
+  @apply font-semibold;
+  @apply rounded;
+  @apply py-1;
+  @apply px-2;
+}
+
+.calc-blue-btn {
+  @apply calc-btn;
+  @apply bg-blue-500;
+  @apply text-white;
+}
+
+.calc-blue-btn:hover {
+  @apply bg-blue-600;
+}
+
+.calc-gray-btn {
+  @apply calc-btn;
+  @apply bg-gray-500;
+  @apply text-black;
+}
+
+.calc-gray-btn:hover {
+  @apply bg-gray-600;
+}
+
 @tailwind utilities;

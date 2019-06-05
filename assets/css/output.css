@@ -637,6 +637,48 @@ video {
   border-color: #e2e8f0;
 }
 
+.calc-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.calc-blue-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #4299e1;
+  color: #fff;
+}
+
+.calc-blue-btn:hover {
+  background-color: #3182ce;
+}
+
+.calc-gray-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #a0aec0;
+  color: #000;
+}
+
+.calc-gray-btn:hover {
+  background-color: #718096;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
