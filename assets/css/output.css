@@ -643,8 +643,9 @@ video {
   border-radius: 0.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
 }
 
 .calc-blue-btn {
@@ -653,8 +654,9 @@ video {
   border-radius: 0.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
   background-color: #4299e1;
   color: #fff;
 }
@@ -669,14 +671,32 @@ video {
   border-radius: 0.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
   background-color: #a0aec0;
   color: #000;
 }
 
 .calc-gray-btn:hover {
   background-color: #718096;
+}
+
+.calc-white-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  background-color: #e2e8f0;
+  color: #000;
+}
+
+.calc-white-btn:hover {
+  background-color: #cbd5e0;
 }
 
 .appearance-none {

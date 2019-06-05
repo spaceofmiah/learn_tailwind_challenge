@@ -16,7 +16,8 @@
   @apply font-semibold;
   @apply rounded;
   @apply py-1;
-  @apply px-2;
+  @apply px-4;
+  @apply text-center;
 }
 
 .calc-blue-btn {
@@ -37,6 +38,16 @@
 
 .calc-gray-btn:hover {
   @apply bg-gray-600;
+}
+
+.calc-white-btn {
+  @apply calc-btn;
+  @apply bg-gray-300;
+  @apply text-black;
+}
+
+.calc-white-btn:hover {
+  @apply bg-gray-400;
 }
 
 @tailwind utilities;

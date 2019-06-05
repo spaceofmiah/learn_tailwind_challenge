@@ -19,7 +19,7 @@
         <!-- top view ( screen ) -->
         <div class="border border-gray-300 rounded-lg p-2">
           <!-- history (button) -->
-          <p class="font-semibold text-sm text-gray-600">H</p>
+          <button class="calc-gray-btn">history</button>
           <!-- screen (input text) -->
           <input
             class="bg-transparent text-right w-full text-xl font-bold outline-none"
@@ -32,12 +32,42 @@
         </div>
 
         <!-- bottom view (buttons) -->
-        <div class="mt-4">
+        <div class="flex mt-4 justify-between">
           <!-- scientific funtion ( buttons ) -->
           <div>
-            <button class="calc-gray-btn">
-              Rad
-            </button>
+            <div class="flex justify-around">
+              <button class="calc-gray-btn mx-1 flex-1">Rad</button>
+              <button
+                class="calc-gray-btn mx-1 flex-1 bg-gray-200 hover:bg-gray-200"
+              >
+                Deg
+              </button>
+              <button class="calc-gray-btn mx-1 flex-1">Tan</button>
+            </div>
+
+            <div class="flex justify-around mt-2">
+              <button class="calc-gray-btn mx-1 flex-1">Sin</button>
+              <button class="calc-gray-btn mx-1 flex-1">Log</button>
+              <button class="calc-gray-btn mx-1 flex-1">Inv</button>
+            </div>
+
+            <div class="flex justify-around mt-2">
+              <button class="calc-gray-btn mx-1 flex-1">x!</button>
+              <button class="calc-gray-btn mx-1 flex-1">ln</button>
+              <button class="calc-gray-btn mx-1 flex-1">&pi;</button>
+            </div>
+
+            <div class="flex justify-around mt-2">
+              <button class="calc-gray-btn mx-1 flex-1">Cos</button>
+              <button class="calc-gray-btn mx-1 flex-1">e</button>
+              <button class="calc-gray-btn mx-1 flex-1">&radic;</button>
+            </div>
+
+            <div class="flex justify-around mt-2">
+              <button class="calc-gray-btn mx-1 flex-1">Ans</button>
+              <button class="calc-gray-btn mx-1 flex-1">EXP</button>
+              <button class="calc-gray-btn mx-1 flex-1">x<sup>y</sup></button>
+            </div>
           </div>
 
           <!-- number buttons -->
