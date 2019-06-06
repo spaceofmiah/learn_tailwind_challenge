@@ -9,13 +9,13 @@
   </head>
   <body>
     <section
-      class="w-full h-screen py-32"
+      class="w-full h-screen py-20 xl:py-32 px-2 sm:px-0"
       style="background: url('../assets/images/learn_tailwind_calculator-bg.png')no-repeat center bottom; object-fit: contain;"
     >
       <h3 class="font-bold text-xl md:text-3xl text-white text-center mb-4">
         TW Calculator
       </h3>
-      <div class="w-2/6 mx-auto border border-black rounded-lg p-4 bg-white">
+      <div class="w-3/2 lg:w-2/6 mx-auto border border-black rounded-lg p-1 md:p-4 bg-white">
         <!-- top view ( screen ) -->
         <div class="border border-gray-300 rounded-lg p-2">
           <!-- history (button) -->
@@ -34,39 +34,39 @@
         <!-- bottom view (buttons) -->
         <div class="flex mt-4 justify-between">
           <!-- scientific funtion ( buttons ) -->
-          <div>
+          <div class="hidden xl:block">
             <div class="flex justify-around">
-              <button class="calc-gray-btn mx-1 flex-1">Rad</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Rad</button>
               <button
-                class="calc-gray-btn mx-1 flex-1 text-gray-400 bg-gray-200 hover:bg-gray-200"
+                class="hidden md:block calc-gray-btn mx-1 flex-1 text-gray-400 bg-gray-200 hover:bg-gray-200"
               >
                 Deg
               </button>
-              <button class="calc-gray-btn mx-1 flex-1">Tan</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">x<sup>y</sup></button>
             </div>
 
             <div class="flex justify-around mt-2">
-              <button class="calc-gray-btn mx-1 flex-1">Sin</button>
-              <button class="calc-gray-btn mx-1 flex-1">Log</button>
-              <button class="calc-gray-btn mx-1 flex-1">Inv</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Sin</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Inv</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">&pi;</button>
             </div>
 
             <div class="flex justify-around mt-2">
-              <button class="calc-gray-btn mx-1 flex-1">x!</button>
-              <button class="calc-gray-btn mx-1 flex-1">ln</button>
-              <button class="calc-gray-btn mx-1 flex-1">&pi;</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Cos</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">x!</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">ln</button>
             </div>
 
             <div class="flex justify-around mt-2">
-              <button class="calc-gray-btn mx-1 flex-1">Cos</button>
-              <button class="calc-gray-btn mx-1 flex-1">e</button>
-              <button class="calc-gray-btn mx-1 flex-1">&radic;</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Tan</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">e</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">&radic;</button>
             </div>
 
             <div class="flex justify-around mt-2">
-              <button class="calc-gray-btn mx-1 flex-1">Ans</button>
-              <button class="calc-gray-btn mx-1 flex-1">EXP</button>
-              <button class="calc-gray-btn mx-1 flex-1">x<sup>y</sup></button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Log</button>  
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Ans</button>
+              <button class="hidden md:block calc-gray-btn mx-1 flex-1">EXP</button>
             </div>
           </div>
 

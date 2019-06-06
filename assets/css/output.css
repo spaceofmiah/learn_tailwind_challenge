@@ -674,12 +674,12 @@ video {
   padding-left: 1rem;
   padding-right: 1rem;
   text-align: center;
-  background-color: #a0aec0;
+  background-color: #cbd5e0;
   color: #000;
 }
 
 .calc-gray-btn:hover {
-  background-color: #718096;
+  background-color: #a0aec0;
 }
 
 .calc-white-btn {
