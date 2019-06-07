@@ -637,6 +637,16 @@ video {
   border-color: #e2e8f0;
 }
 
+.link {
+  font-weight: 600;
+  color: #718096;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #a0aec0;
+}
+
 .button {
   font-size: 0.875rem;
   font-weight: 600;
