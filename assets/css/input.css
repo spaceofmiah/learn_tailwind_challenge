@@ -11,7 +11,7 @@
   @apply border-gray-300;
 }
 
-.calc-btn {
+.button {
   @apply text-sm;
   @apply font-semibold;
   @apply rounded;
@@ -21,7 +21,7 @@
 }
 
 .calc-blue-btn {
-  @apply calc-btn;
+  @apply button;
   @apply bg-blue-500;
   @apply text-white;
 }
@@ -31,7 +31,7 @@
 }
 
 .calc-gray-btn {
-  @apply calc-btn;
+  @apply button;
   @apply bg-gray-400;
   @apply text-black;
 }
@@ -41,7 +41,7 @@
 }
 
 .calc-white-btn {
-  @apply calc-btn;
+  @apply button;
   @apply bg-gray-300;
   @apply text-black;
 }
