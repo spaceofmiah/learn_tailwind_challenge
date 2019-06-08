@@ -658,7 +658,7 @@ video {
   text-align: center;
 }
 
-.calc-blue-btn {
+.blue-btn {
   font-size: 0.875rem;
   font-weight: 600;
   border-radius: 0.25rem;
@@ -671,11 +671,11 @@ video {
   color: #fff;
 }
 
-.calc-blue-btn:hover {
+.blue-btn:hover {
   background-color: #3182ce;
 }
 
-.calc-gray-btn {
+.gray-btn {
   font-size: 0.875rem;
   font-weight: 600;
   border-radius: 0.25rem;
@@ -688,11 +688,11 @@ video {
   color: #000;
 }
 
-.calc-gray-btn:hover {
+.gray-btn:hover {
   background-color: #a0aec0;
 }
 
-.calc-white-btn {
+.white-btn {
   font-size: 0.875rem;
   font-weight: 600;
   border-radius: 0.25rem;
@@ -705,7 +705,7 @@ video {
   color: #000;
 }
 
-.calc-white-btn:hover {
+.white-btn:hover {
   background-color: #cbd5e0;
 }
 

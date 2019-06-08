@@ -30,33 +30,33 @@
   @apply text-center;
 }
 
-.calc-blue-btn {
+.blue-btn {
   @apply button;
   @apply bg-blue-500;
   @apply text-white;
 }
 
-.calc-blue-btn:hover {
+.blue-btn:hover {
   @apply bg-blue-600;
 }
 
-.calc-gray-btn {
+.gray-btn {
   @apply button;
   @apply bg-gray-400;
   @apply text-black;
 }
 
-.calc-gray-btn:hover {
+.gray-btn:hover {
   @apply bg-gray-500;
 }
 
-.calc-white-btn {
+.white-btn {
   @apply button;
   @apply bg-gray-300;
   @apply text-black;
 }
 
-.calc-white-btn:hover {
+.white-btn:hover {
   @apply bg-gray-400;
 }
 
