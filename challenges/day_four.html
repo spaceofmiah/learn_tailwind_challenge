@@ -1,120 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Scientific calculator | Lean Tailwind css</title>
-    <link rel="stylesheet" href="../assets/css/output.css" />
-  </head>
-  <body>
-    <section
-      class="w-full h-screen py-20 xl:py-32 px-2 sm:px-0"
-      style="background: url('../assets/images/learn_tailwind_calculator-bg.png')no-repeat center bottom; object-fit: contain;"
-    >
-      <h3 class="font-bold text-xl md:text-3xl text-white text-center mb-4">
-        TW Calculator
-      </h3>
-      <div class="w-3/2 lg:w-2/6 mx-auto border border-black rounded-lg p-1 md:p-4 bg-white">
-        <!-- top view ( screen ) -->
-        <div class="border border-gray-300 rounded-lg p-2">
-          <!-- history (button) -->
-          <button class="calc-gray-btn">history</button>
-          <!-- screen (input text) -->
-          <input
-            class="bg-transparent text-right w-full text-xl font-bold outline-none"
-            type="text"
-            name="screen"
-            id="id_screen"
-            placeholder="0"
-            autofocus
-          />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Scientific calculator | Lean Tailwind css</title>
+  <link rel="stylesheet" href="../assets/css/output.css" />
+</head>
+
+<body>
+  <section class="w-full h-screen py-20 xl:py-32 px-2 sm:px-0"
+    style="background: url('../assets/images/learn_tailwind_calculator-bg.png')no-repeat center bottom; object-fit: contain;">
+    <h3 class="font-bold text-xl md:text-3xl text-white text-center mb-4">
+      TW Calculator
+    </h3>
+    <div class="w-3/2 lg:w-2/6 mx-auto border border-black rounded-lg p-1 md:p-4 bg-white">
+      <!-- top view ( screen ) -->
+      <div class="border border-gray-300 rounded-lg p-2">
+        <!-- history (button) -->
+        <button class=" gray-btn">history</button>
+        <!-- screen (input text) -->
+        <input class="bg-transparent text-right w-full text-xl font-bold outline-none" type="text" name="screen"
+          id="id_screen" placeholder="0" autofocus />
+      </div>
+
+      <!-- bottom view (buttons) -->
+      <div class="flex mt-4 justify-between">
+        <!-- scientific funtion ( buttons ) -->
+        <div class="hidden xl:block">
+          <div class="flex justify-around">
+            <button class="hidden md:block  gray-btn mx-1 flex-1">Rad</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1 text-gray-400 bg-gray-200 hover:bg-gray-200">
+              Deg
+            </button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">x<sup>y</sup></button>
+          </div>
+
+          <div class="flex justify-around mt-2">
+            <button class="hidden md:block  gray-btn mx-1 flex-1">Sin</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">Inv</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">&pi;</button>
+          </div>
+
+          <div class="flex justify-around mt-2">
+            <button class="hidden md:block  gray-btn mx-1 flex-1">Cos</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">x!</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">ln</button>
+          </div>
+
+          <div class="flex justify-around mt-2">
+            <button class="hidden md:block  gray-btn mx-1 flex-1">Tan</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">e</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">&radic;</button>
+          </div>
+
+          <div class="flex justify-around mt-2">
+            <button class="hidden md:block  gray-btn mx-1 flex-1">Log</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">Ans</button>
+            <button class="hidden md:block  gray-btn mx-1 flex-1">EXP</button>
+          </div>
         </div>
 
-        <!-- bottom view (buttons) -->
-        <div class="flex mt-4 justify-between">
-          <!-- scientific funtion ( buttons ) -->
-          <div class="hidden xl:block">
-            <div class="flex justify-around">
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Rad</button>
-              <button
-                class="hidden md:block calc-gray-btn mx-1 flex-1 text-gray-400 bg-gray-200 hover:bg-gray-200"
-              >
-                Deg
-              </button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">x<sup>y</sup></button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Sin</button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Inv</button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">&pi;</button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Cos</button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">x!</button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">ln</button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Tan</button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">e</button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">&radic;</button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Log</button>  
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">Ans</button>
-              <button class="hidden md:block calc-gray-btn mx-1 flex-1">EXP</button>
-            </div>
+        <!-- number buttons -->
+        <div>
+          <div class="flex justify-around">
+            <button class=" gray-btn mx-1 flex-1">(</button>
+            <button class=" gray-btn mx-1 flex-1">)</button>
+            <button class=" gray-btn mx-1 flex-1">&percnt;</button>
           </div>
 
-          <!-- number buttons -->
-          <div>
-            <div class="flex justify-around">
-              <button class="calc-gray-btn mx-1 flex-1">(</button>
-              <button class="calc-gray-btn mx-1 flex-1">)</button>
-              <button class="calc-gray-btn mx-1 flex-1">&percnt;</button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="calc-white-btn mx-1 flex-1 px-8">7</button>
-              <button class="calc-white-btn mx-1 flex-1 px-8">8</button>
-              <button class="calc-white-btn mx-1 flex-1 px-8">9</button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="calc-white-btn mx-1 flex-1">4</button>
-              <button class="calc-white-btn mx-1 flex-1">5</button>
-              <button class="calc-white-btn mx-1 flex-1">6</button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="calc-white-btn mx-1 flex-1">1</button>
-              <button class="calc-white-btn mx-1 flex-1">2</button>
-              <button class="calc-white-btn mx-1 flex-1">3</button>
-            </div>
-
-            <div class="flex justify-around mt-2">
-              <button class="calc-white-btn mx-1 flex-1">0</button>
-              <button class="calc-white-btn mx-1 flex-1">.</button>
-              <button class="calc-blue-btn mx-1 flex-1">=</button>
-            </div>
+          <div class="flex justify-around mt-2">
+            <button class=" white-btn mx-1 flex-1 px-8">7</button>
+            <button class=" white-btn mx-1 flex-1 px-8">8</button>
+            <button class=" white-btn mx-1 flex-1 px-8">9</button>
           </div>
 
-          <!-- computational operators (buttons) -->
-          <div>
-            <div class="flex flex-col justify-between">
-              <button class="calc-gray-btn flex-1 mb-1">AC</button>
-              <button class="calc-gray-btn flex-1 my-1">&divide;</button>
-              <button class="calc-gray-btn flex-1 my-1">&times;</button>
-              <button class="calc-gray-btn flex-1 my-1">&minus;</button>
-              <button class="calc-gray-btn flex-1 my-1">&plus;</button>
-            </div>
+          <div class="flex justify-around mt-2">
+            <button class=" white-btn mx-1 flex-1">4</button>
+            <button class=" white-btn mx-1 flex-1">5</button>
+            <button class=" white-btn mx-1 flex-1">6</button>
+          </div>
+
+          <div class="flex justify-around mt-2">
+            <button class=" white-btn mx-1 flex-1">1</button>
+            <button class=" white-btn mx-1 flex-1">2</button>
+            <button class=" white-btn mx-1 flex-1">3</button>
+          </div>
+
+          <div class="flex justify-around mt-2">
+            <button class=" white-btn mx-1 flex-1">0</button>
+            <button class=" white-btn mx-1 flex-1">.</button>
+            <button class=" blue-btn mx-1 flex-1">=</button>
+          </div>
+        </div>
+
+        <!-- computational operators (buttons) -->
+        <div>
+          <div class="flex flex-col justify-between">
+            <button class=" gray-btn flex-1 mb-1">AC</button>
+            <button class=" gray-btn flex-1 my-1">&divide;</button>
+            <button class=" gray-btn flex-1 my-1">&times;</button>
+            <button class=" gray-btn flex-1 my-1">&minus;</button>
+            <button class=" gray-btn flex-1 my-1">&plus;</button>
           </div>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
